@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>reto tabla fondo oscuro</title>
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid rgb(0, 0, 54);
+        text-align: left;
+        padding: 10px;
+      }
+      .rojo {
+        color: rgb(184, 9, 9);
+      }
+      tbody tr:nth-child(2n + 1) {
+        background-color: #414040;
+      }
+      .grey {
+        background-color: rgb(54, 54, 54);
+      }
+      .blanco {
+          color: rgb(160, 160, 160);
+      }
+
+      table {
+        background-color: rgb(7, 7, 77);
+        border-collapse: separate;
+        border-spacing: 0px;
+        padding: 20px;
+      }
+      thead tr {
+        background-color: rgb(3, 3, 100);
+        color: rgb(9, 105, 5);
+      }
+    </style>
+  </head>
+  <body>
+    <table style="width: 46%; margin: 40px auto">
+      <thead>
+        <tr>
+          <th style="width: 30%">Sites</th>
+          <th style="width: 20%">Views</th>
+          <th style="width: 20%">Clicks</th>
+          <th style="width: 30%">Average</th>
+        </tr>
+      </thead>
+       
+      <tbody>
+           
+        <tr>
+               
+          <td class="rojo">Google</td>
+               
+          <td class="blanco">9518</td>
+          <td class="blanco">6369</td>
+               
+          <td class="blanco">01:32:50</td>
+             
+        </tr>
+           
+        <tr class="grey">
+               
+          <td class="rojo">Twitter</td>
+               
+          <td class="blanco">7326</td>
+          <td class="blanco">10437</td>
+               
+          <td class="blanco">00:51:22</td>
+             
+        </tr>
+           
+        <tr>
+               
+          <td class="rojo">Amazon</td>
+               
+          <td class="blanco">4162</td>
+          <td class="blanco">5327</td>
+               
+          <td class="blanco">00:24:34</td>
+        </tr>
+         
+        <tr class="grey">
+               
+          <td class="rojo">Linkedin</td>
+               
+          <td class="blanco">3654</td>
+             
+          <td class="blanco">2961</td>
+               
+          <td class="blanco">00:12:10</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
